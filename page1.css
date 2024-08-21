@@ -1,0 +1,41 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_Form1
+{
+   background-color: #F8F9FA;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+}
+#TextArea1
+{
+   border: 1px solid #DEE2E6;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 16px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   overflow: auto;
+   resize: none;
+}
+#TextArea1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}

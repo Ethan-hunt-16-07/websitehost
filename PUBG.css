@@ -1,0 +1,222 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_text3LayoutGrid
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#text3LayoutGrid
+{
+   box-sizing: border-box;
+   padding: 50px 15px 50px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#text3LayoutGrid > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#text3LayoutGrid > .row > .col-1, #text3LayoutGrid > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#text3LayoutGrid > .row > .col-1, #text3LayoutGrid > .row > .col-2
+{
+   float: left;
+}
+#text3LayoutGrid > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 50%;
+   text-align: left;
+}
+#text3LayoutGrid > .row > .col-1 > .col-1-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 30px 0 30px 0;
+}
+#text3LayoutGrid > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 50%;
+   text-align: left;
+}
+#text3LayoutGrid > .row > .col-2 > .col-2-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 30px 0 30px 0;
+}
+#text3LayoutGrid:before,
+#text3LayoutGrid:after,
+#text3LayoutGrid .row:before,
+#text3LayoutGrid .row:after
+{
+   display: table;
+   content: " ";
+}
+#text3LayoutGrid:after,
+#text3LayoutGrid .row:after
+{
+   clear: both;
+}
+@media (max-width: 768px)
+{
+#text3LayoutGrid > .row > .col-1, #text3LayoutGrid > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_text3Image
+{
+   margin: 0;
+   vertical-align: top;
+}
+#text3Image
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_text3Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 0 0 5px 0;
+   text-align: left;
+}
+#text3Heading1
+{
+   color: #696969;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 48px;
+   margin: 0;
+   text-align: left;
+   text-transform: none;
+}
+#wb_text3Heading2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 0 0 15px 0;
+   text-align: left;
+}
+#text3Heading2
+{
+   color: #696969;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 24px;
+   margin: 0;
+   text-align: left;
+   text-transform: none;
+}
+#wb_text3Text 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0 0 30px 0 ;
+   text-align: left;
+}
+#wb_text3Text
+{
+   color: #696969;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18px;
+}
+#wb_text3Text p, #wb_text3Text ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_text3Text
+{
+   display: block;
+   margin: 0 0 30px 0 ;
+   box-sizing: border-box;
+   width: 100%;
+}
+#text3Button
+{
+   box-sizing: border-box;
+   line-height: 34px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #0D6EFD;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#text3Button:focus
+{
+   outline: 0;
+}
